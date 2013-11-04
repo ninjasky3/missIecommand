@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="MissleCommand.swf" />
+    <movie path="bin\MissleCommand.swf" />
     <movie fps="30" />
     <movie width="1024" />
     <movie height="800" />
@@ -56,6 +56,10 @@
     <element path="lib\SuperMissle.swc" />
     <element path="lib\PoppetjeMC.swc" />
     <element path="lib\OctopusMC.swc" />
+    <element path="lib\StartKnop.swc" />
+    <element path="lib\fullscreenMC.swc" />
+    <element path="lib\highscoreMC.swc" />
+    <element path="lib\losescreenmc.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>

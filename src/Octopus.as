@@ -25,7 +25,6 @@ package
 						if (octopus.x > 1400)
 			{
 				octopus.x = -500;
-				
 			}
 		}
 		

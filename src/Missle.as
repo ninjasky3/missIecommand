@@ -7,16 +7,15 @@ import flash.events.MouseEvent;
 	 * ...
 	 * @author Kerim Birlik
 	 */
-	public  class Missle extends MissleMC
+	public  class Missle extends WindEntity
 	{
 		public static var _allMeteooren:Array = [];
-		//movementX = Math.random() * 20;
-		//movementY = Math.random() * 20;
-		
+	
+		private var missledingens:MissleMC = new MissleMC;
 		
 		public function Missle() 
 		{
-			
+			addChild(missledingens);
 			
 			
 		}
